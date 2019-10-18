@@ -80,6 +80,17 @@
 
   <title>Hello World | Blog</title>
   
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150356994-1"></script>
+    <script>
+      var host = window.location.hostname;
+      if (host !== "localhost" || !true) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-150356994-1');
+      }
+    </script>
+  
 
 
 
@@ -160,6 +171,32 @@
       
         
         
+        <li class="menu-item menu-item-about">
+      
+    
+
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>关于</a>
+
+  </li>
+      
+    
+      
+      
+        
+        
+        <li class="menu-item menu-item-categories">
+      
+    
+
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类</a>
+
+  </li>
+      
+    
+      
+      
+        
+        
         <li class="menu-item menu-item-archives">
       
     
@@ -198,7 +235,7 @@
     <link itemprop="mainEntityOfPage" href="maskyer.github.io/2019/10/17/hello-world/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="">
+      <meta itemprop="name" content="fish">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/afish.png">
     </span>
@@ -327,8 +364,8 @@
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <img class="site-author-image" itemprop="image"
       src="/images/afish.png"
-      alt="">
-  <p class="site-author-name" itemprop="name"></p>
+      alt="fish">
+  <p class="site-author-name" itemprop="name">fish</p>
   <div class="site-description" itemprop="description"></div>
 </div>
 <div class="site-state-wrap motion-element">
@@ -344,6 +381,30 @@
     
   </nav>
 </div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+      
+      
+        
+      
+      
+        
+      
+        <a href="mailto:metin9527@gmail.com" title="E-Mail &amp;rarr; mailto:metin9527@gmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+    
+      <span class="links-of-author-item">
+      
+      
+        
+      
+      
+        
+      
+        <a href="https://twitter.com/maskyer" title="Twitter &amp;rarr; https:&#x2F;&#x2F;twitter.com&#x2F;maskyer" rel="noopener" target="_blank"><i class="fa fa-fw fa-twitter"></i>Twitter</a>
+      </span>
+    
+  </div>
 
 
 
@@ -367,7 +428,7 @@
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder"></span>
+  <span class="author" itemprop="copyrightHolder">fish</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v4.0.0
   </div>
